@@ -1,0 +1,7 @@
+services:
+  yt-dlp-alpine:
+   image:<username>/<repositoryname>
+   build:.
+   volumes:
+     - .:/mydir
+     - container_name: yt-dlp
